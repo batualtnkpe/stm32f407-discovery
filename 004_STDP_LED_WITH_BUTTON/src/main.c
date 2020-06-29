@@ -45,6 +45,36 @@ int main(void)
 
 		  count++; // Sayma deðiþkenini 1 artýr.
 	  }
+	  if(count == 1)
+	  {
+		  GPIO_SetBits(GPIOD, GPIO_Pin_12); //Count 1 ise 12. ledi yak
+	  }
+	  else if(count == 2)
+	  {
+	 	  GPIO_SetBits(GPIOD, GPIO_Pin_13); //Count 2 ise 13. ledi yak
+	  }
+	  else if(count == 3)
+	  {
+	  	  GPIO_SetBits(GPIOD, GPIO_Pin_14); //Count 3 ise 14. ledi yak
+	  }
+	  else if(count == 4)
+	  {
+	  	  GPIO_SetBits(GPIOD, GPIO_Pin_15); //Count 4 ise 15. ledi yak
+	  }
+	  else
+	  {
+		  count = 0;						//Count'ý sýfýrla
+		  GPIO_ResetBits(GPIOD, GPIO_Pin_15);  // 15. ledi söndür
+		  delay(1680000); //100ms bekle
+		  GPIO_ResetBits(GPIOD, GPIO_Pin_14);  // 14. ledi söndür
+		  delay(1680000); //100ms bekle
+	      GPIO_ResetBits(GPIOD, GPIO_Pin_13);  // 13. ledi söndür
+		  delay(1680000); //100ms bekle
+		  GPIO_ResetBits(GPIOD, GPIO_Pin_12);  // 12. ledi söndür
+
+
+	  }
+
   }
 }
 
