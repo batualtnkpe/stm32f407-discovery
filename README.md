@@ -9,4 +9,4 @@ STM32F407 DISCOVERY geliştirme kartı için yazılmış başlangıçtan ileri s
 
 004_STDP_BUTTON_CONTROL --> Bu dosya içerisinde STD Peripheral(standard peripheral library) kütüphanesi ile buton kontrol işlemi yapılmaktadır.
 
-004_STDP_LED_WITH_BUTTON --> Bu dosya içerisinde STD Peripheral(standard peripheral library) kütüphanesi ile buton kontrollü led yakma işlemi yapılmaktadır.
+004_1_STDP_LED_WITH_BUTTON --> Bu dosya içerisinde STD Peripheral(standard peripheral library) kütüphanesi ile buton kontrollü led yakma işlemi yapılmaktadır.
