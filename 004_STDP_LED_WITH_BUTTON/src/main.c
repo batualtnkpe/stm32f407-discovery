@@ -35,6 +35,7 @@ void delay(uint32_t time) // Delay için fonksiyon oluþturuldu (32bit)
 
 int main(void)
 {
+	GPIO_Config();
 
   while (1)
   {
