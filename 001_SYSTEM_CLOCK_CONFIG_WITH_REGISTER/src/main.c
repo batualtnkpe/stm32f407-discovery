@@ -16,7 +16,7 @@ void CLK_Config() // Clock konfigürasyonlarý için CLK_Config fonksiyonu oluþturu
 	RCC->CIR  |= 0x00080000;	// HSERDY Flag Clear
 	RCC->CIR  |= 0x00800000;	// CSS Flag Clear
 
-	RCC->AHB1ENR = 0x00000008;  // AHB1 AKTÝF EDÝLDÝ
+	RCC->AHB1ENR = 0x00000008;  // GPIOA AKTÝF EDÝLDÝ
 
 	GPIOD->MODER = 0x55000000;  // 12 13 14 15. LEDLER ÝÇÝN OUTPUT MOD
 	GPIOD->OTYPER = 0x00000000; // PUSH PULL SEÇÝLDÝ
