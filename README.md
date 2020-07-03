@@ -1,7 +1,7 @@
 # stm32f407-discovery
 STM32F407 DISCOVERY geliştirme kartı için yazılmış başlangıçtan ileri seviyeye kadar olan örnek kodlar.
 
-User Manuel --> STM32F407VGT6 için yayınlanmış olan referance(user) manuel dosyasıdır. 
+User Manuel.pdf --> STM32F407VGT6 için yayınlanmış olan referance(user) manuel dosyasıdır. 
 
 001_SYSTEM_CLOCK_CONFIG_WITH_REGISTER --> Bu dosya içerisinde sistem clock konfigürasyonları ve PLL ayarları registerlar ile yapılmaktadır.
 
